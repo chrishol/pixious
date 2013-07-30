@@ -2,30 +2,60 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+html {
+  background: image-url("bg_garden.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+body {
+  background-color: transparent !important;
+}
+
 #pixious {
-  position: absolute;
-  left: 100px;
-  top: 100px;
+  padding-top: 15px;
+  margin: auto;
 }
 h1 {
   text-align: center;
   font-family: 'Lobster', cursive;
-  font-size: 800% !important;
+  font-size: 1000% !important;
+  line-height: 100% !important;
+  color: black !important;
 }
-.link {
+
+#tagline {
+  margin: auto;
+}
+h2 {
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 200% !important;
+  line-height: 100% !important;
+  color: #410666 !important;
+}
+
+#links {
+  padding-top: 380px;
+  text-align: center;
   display:block;
 }
-#about_link {
-  position: absolute;
-  left: 120px;
-  top: 220px;
-}
-#shop_link {
-  position: absolute;
-  left: 280px;
-  top: 220px;
+
+.link {
+  padding-left:50px;
+  padding-right:50px;
+  line-height: 100% !important;
+  color: white !important;
+  font-size: 400% !important;
+  text-shadow:
+  3px 3px 3px rgba( 0, 0, 0, 0.7 ),
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 #about_shop_link {
   text-align: center;
@@ -37,4 +67,5 @@ h1 {
   margin:auto;
   width: 60%;
   text-align: center;
+  background-color: white;
 }
