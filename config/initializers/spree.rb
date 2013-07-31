@@ -8,7 +8,7 @@
 Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
-  # config.site_name = "Spree Demo Site"
+  config.site_name = "Pixious - Handmade with Love"
 
   config.use_s3 = true
   config.s3_bucket = 'pixious'
