@@ -9,17 +9,23 @@ body {
 #pixious {
   padding-top: 30px;
   margin: auto;
+  color: black !important;
 }
 #hi_there {
   padding-top: 15px;
   margin: auto;
+  color: yellow !important;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 h1 {
   text-align: center;
   font-family: 'Lobster', cursive;
   font-size: 1000% !important;
   line-height: 100% !important;
-  color: black !important;
 }
 
 #tagline {
@@ -75,4 +81,7 @@ a:hover {
   width: 45%;
   text-align: center;
   text-shadow: 1px 1px 1px rgba( 0, 0, 0, 0.5 );
+}
+.facebook {
+  padding-top: 35px;
 }
